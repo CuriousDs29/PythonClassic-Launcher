@@ -26,6 +26,30 @@ body {
   border-bottom: 1px solid #1f3f78;
 }
 
+
+.navbar {
+  background: linear-gradient(to bottom, #fdfdfd, #dce6f7);
+  border-bottom: 1px solid #a3b7d9;
+  padding: 8px 16px;
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+}
+
+.navbar a {
+  color: #1a3d7c;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background: #ffffff;
+  border: 1px solid #8aa7d6;
+  padding: 5px 9px;
+}
+
 .titlebar h1 {
   margin: 0;
   font-size: 22px;
